@@ -5,8 +5,19 @@
 This project focuses on classifying Zalando fashion articles using deep learning models trained on the Fashion MNIST dataset. It aims to automate clothing categorization and contribute to intelligent fashion recommendation systems.
 
 
-## 📂 Project Structure
-
+## 📂 Folder Structure  
+The following project structure is maintained in this repository:  
+```bash
+Zalando Project
+|
+├── data/ # Raw and processed dataset
+├── models/ # Saved model weights and architectures
+├── notebooks/ # Jupyter notebooks for experiments and analysis
+├── src/ # Source code for training, evaluation, utils
+├── outputs/ # Output images, graphs, confusion matrix, etc.
+├── requirements.txt # Python dependencies
+└── main.py # Main script to run the project
+```
 ## 📦 Dataset Overview  
 [Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
 
