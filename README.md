@@ -10,13 +10,12 @@ The following project structure is maintained in this repository:
 ```bash
 Zalando Project
 |
-├── data/ # Raw and processed dataset
-├── models/ # Saved model weights and architectures
-├── notebooks/ # Jupyter notebooks for experiments and analysis
-├── src/ # Source code for training, evaluation, utils
-├── outputs/ # Output images, graphs, confusion matrix, etc.
-├── requirements.txt # Python dependencies
-└── main.py # Main script to run the project
+├── Dataset/ # If it is not available in this folder due to file size limitation of Github, please follow the Colab or Kaggle link
+├── Src/ # Source code for dataset upload, training, evaluation, and visualization for every model used
+├── Images/ # Output images, graphs, confusion matrix, etc.
+├── Requirements.txt # Python dependencies
+├── Licence
+└── README.md # Outline and overview of this project
 ```
 ## 📦 Dataset Overview  
 [Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
