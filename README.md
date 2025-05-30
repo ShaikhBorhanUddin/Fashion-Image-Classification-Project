@@ -5,6 +5,8 @@
 ## 📂 Project Structure
 
 ## 🧠 Dataset Overview  
+[Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/dataset_image_distribution.png?raw=true)
 
 ## 🚀 Model Architectures
