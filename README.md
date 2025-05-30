@@ -22,6 +22,8 @@ Zalando Project
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/dataset_image_distribution.png?raw=true)
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/Zalando_sample.png?raw=true)  
+
 ## ⚗️ Experiments
 
 ## 📊 Results
