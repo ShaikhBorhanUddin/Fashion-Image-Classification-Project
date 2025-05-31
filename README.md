@@ -39,6 +39,8 @@ Zalando Project
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/mobilenetv2_viz.png?raw=true)  
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/resnet_viz.png?raw=true)  
+
 ## 🛍️ Practical Applications
 
 ## 🧪 How to Run Locally
