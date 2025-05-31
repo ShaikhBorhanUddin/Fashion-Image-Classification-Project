@@ -35,6 +35,7 @@ Zalando Project
 | ResNet101V2   | 0.6883   | 0.6995   | 0.8445 | 0.6929    | 0.6822  |
 | VGG19         | 0.6230   | 0.6074   | 0.7610 | 0.6725    | 0.5580  |
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/vgg_accuracy.png?raw=true)  
 
 ## 📈 ROC Curve Analysis  
 ![dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_ROC.png?raw=true)
