@@ -29,7 +29,7 @@ Zalando Project
 ## 📊 Results
 
 ## 📈 ROC Curve Analysis  
-![dashboard](?raw=true)
+![dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_ROC.png?raw=true)
 
 ## 📉 Confusion Matrix
 
