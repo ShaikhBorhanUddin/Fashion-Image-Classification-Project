@@ -34,7 +34,8 @@ Zalando Project
 ## 📉 Confusion Matrix  
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_CM.png?raw=true)
 
-## 🖼️ Visualizations
+## 🖼️ Visualizations  
+![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/DenseNet121_viz.png?raw=true)
 
 ## 🛍️ Practical Applications
 
