@@ -46,6 +46,13 @@ Zalando Project
 ## 📈 ROC Curve Analysis  
 ![dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_ROC.png?raw=true)
 
+The ROC curves for DenseNet121 (left panel) demonstrate strong class separability, particularly for the 'shirt' and 'longsleeve' classes, which nearly hug the top-left corner — indicating excellent true positive rates with low false positives. The 'hoodies_female' and 'sweatshirt_female' classes perform slightly lower but still show decent AUC behavior. The curves suggest that DenseNet121 is a well-calibrated model overall, achieving a good balance between sensitivity and specificity for most classes. The tight grouping near the top indicates robustness in multi-class discrimination.
+
+The MobileNetV2 ROC curves (middle panel) show slightly weaker performance compared to DenseNet121. The 'shirt' and 'longsleeve' classes again achieve high AUCs, reflecting consistent model strength in recognizing these categories. However, the 'sweatshirt_female' and 'hoodies' curves drop more steeply, showing reduced ability to distinguish these classes from others. This suggests MobileNetV2 struggles more with complex or visually similar clothing categories — likely due to its lightweight architecture, which limits its depth of feature extraction compared to deeper networks.
+
+The ResNet101V2 ROC curves (right panel) are competitive and overall slightly stronger than MobileNetV2, though not as tight as DenseNet121. The 'shirt', 'longsleeve', and 'sweatshirt_female' classes display high AUC values, indicating effective detection. While there is still a modest drop for 'hoodies' and 'hoodies_female', the curves remain relatively steep with limited false positives. ResNet101V2 shows a balanced and generalized classification capacity across multiple categories, thanks to its deeper architecture and rich feature representation.
+
+
 ## 📉 Confusion Matrix  
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_CM.png?raw=true)
 
