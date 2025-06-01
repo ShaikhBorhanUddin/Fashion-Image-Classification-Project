@@ -68,6 +68,8 @@ The Grad-CAM and Score-CAM visualizations for DenseNet121 reveal effective spati
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/mobilenetv2_viz.png?raw=true)  
 
+The visual explanations from MobileNetV2 show how it interprets clothing categories with Grad-CAM and Grad-CAM++ techniques. In the first row, the Grad-CAM visualizations highlight the central torso and chest area, capturing logos, text, and sleeve length, which helps the model correctly classify 'hoodies' and 'hoodies_female'. The attention is strong but a bit more diffused than DenseNet121, especially around the arms and shoulders. In the Grad-CAM++ examples (second row), the heatmaps demonstrate more precise and fine-grained focus, particularly around the midsection and sleeve cuffs, contributing to the accurate prediction of 'longsleeve' and even challenging examples like a 'hoodie' misclassified as 'hoodies_female'. While Grad-CAM++ improves localization, it also shows sensitivity to subtle features like gender-specific styling. Overall, MobileNetV2 demonstrates solid interpretability, with Grad-CAM++ offering slightly more refined insights than Grad-CAM, though some class confusion still exists for visually similar clothing items.  
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/resnet_viz.png?raw=true)  
 
 ## 🛍️ Practical Applications
