@@ -64,6 +64,8 @@ ResNet101V2 shows balanced performance across most categories, with stronger dia
 ## 🖼️ Visualizations  
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/DenseNet121_viz.png?raw=true)  
 
+The Grad-CAM and Score-CAM visualizations for DenseNet121 reveal effective spatial attention in identifying key garment features for classification. In the Grad-CAM outputs (top row), the model accurately focuses on the central torso area, including hoods and sleeves, to distinguish 'hoodies' and 'hoodies_female', showing localized activation around relevant textures and shapes. The attention maps are centered and tight, suggesting robust feature extraction. The Score-CAM visualizations (bottom row) for 'longsleeve' and 'shirt' also demonstrate clear attention to the full upper body, emphasizing the shape and fit of sleeves and collars. These heatmaps are more uniformly distributed compared to Grad-CAM, capturing broader regions of importance. Overall, both techniques confirm that DenseNet121 not only classifies accurately but also bases decisions on meaningful, interpretable visual cues from the clothing items.  
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/mobilenetv2_viz.png?raw=true)  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/resnet_viz.png?raw=true)  
