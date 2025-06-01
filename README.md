@@ -72,6 +72,27 @@ The visual explanations from MobileNetV2 show how it interprets clothing categor
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/resnet_viz.png?raw=true)  
 
+This visualization illustrates how the ResNet101V2 model interprets clothing categories using Grad-CAM (first pair) and Grad-CAM++ (remaining three pairs):
+
+- The Grad-CAM result (top-left) for the 'longsleeve' category shows moderate focus on the upper torso and chest area, with some spread across the arms. While effective, the heatmap is less concentrated, reflecting the broader receptive fields in deeper ResNet layers.
+
+In contrast, Grad-CAM++ visualizations offer more localized attention:
+
+- For the 'hoodies' example (top-right), the focus is primarily on the logo and hoodie structure—particularly the hood and chest print—indicating strong alignment with visual cues relevant to classification.
+
+- The 'hoodies_female' sample (bottom-left) shows heat focused on the face, hood, and logo area. While this attention overlaps with gender-specific cues, it may also indicate some reliance on facial attributes.
+
+- The 'sweatshirt' image misclassified as 'hoodies' (bottom-right) reveals attention on the hoodie-style drawstrings and upper torso, showing that the model prioritizes visual hoodie-like features even if the category is technically different.
+
+Overall, ResNet101V2 with Grad-CAM++ produces tighter, more discriminative heatmaps, effectively localizing clothing details like logos, hoods, and necklines. However, its tendency to misclassify sweatshirt-style tops as hoodies suggests some feature overlap confusion, especially when garments share visual attributes.
+
+
+
+
+
+
+
+
 ## 🛍️ Practical Applications
 
 ## 🧪 How to Run Locally
