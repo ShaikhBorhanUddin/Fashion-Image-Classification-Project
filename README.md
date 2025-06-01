@@ -49,6 +49,8 @@ The performance plots for the ResNet101V2 model reveal notable improvements duri
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/vgg_accuracy.png?raw=true)  
 
+The accuracy graph for the VGG19 model before fine-tuning shows gradual improvement over 70 epochs but ultimately yields underwhelming results compared to other models. Training accuracy fluctuates between 60% and 70% after the initial sharp rise, while validation accuracy plateaus early and remains consistently around 62–64%, showing minimal improvement despite the extended training duration. The persistent gap and instability in training accuracy without corresponding gains in validation performance suggest limited generalization and potential overfitting. Due to this lackluster performance, especially in contrast with models like ResNet101V2 or DenseNet101, other performance metrics such as loss, precision, recall, and F1-score are omitted from this section as they are unlikely to provide further meaningful insights without fine-tuning.
+
 ## 📈 ROC Curve Analysis  
 ![dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_ROC.png?raw=true)
 
