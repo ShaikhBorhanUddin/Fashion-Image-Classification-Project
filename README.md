@@ -49,6 +49,11 @@ Zalando Project
 ## 📉 Confusion Matrix  
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_CM.png?raw=true)
 
+The DenseNet121 model shows strong performance, particularly for the 'shirt' class, with 473 correct predictions and minimal confusion. The 'longsleeve' class is also fairly well classified with 153 correct predictions and limited spillover into other categories. However, the 'sweatshirt' and 'sweatshirt_female' classes show considerable misclassification — especially 'sweatshirt', which is often confused with 'hoodies' and 'longsleeve', indicating feature overlap. Notably, many 'sweatshirt_female' instances are being classified as 'hoodies_female', likely due to visual similarities in female upper-body garments.
+
+MobileNetV2 struggles more with class separability compared to DenseNet121. The 'shirt' class again performs well (477 correct), but misclassifications increase across other categories. For instance, 'hoodies' has 24 misclassified as 'hoodies_female', and 'sweatshirt_female' is highly confused with 'hoodies_female' (143 predictions). The 'longsleeve' class suffers from significant ambiguity, with predictions spreading across 'shirt', 'sweatshirt', and even 'hoodies'. This implies that MobileNetV2 has a harder time distinguishing fine-grained clothing details, likely due to a lighter architecture and reduced representational capacity.
+
+ResNet101V2 shows balanced performance across most categories, with stronger diagonal dominance than MobileNetV2, and slightly better than DenseNet121 in some areas. The 'shirt' class is highly accurate with 470 correct predictions. However, 'sweatshirt_female' still faces confusion, notably with 'hoodies_female' (107 misclassifications), and 'sweatshirt' often gets misclassified as 'longsleeve' and 'shirt'. ResNet101V2 does a better job distinguishing between 'hoodies' and 'sweatshirt', likely due to deeper feature extraction layers, but subtle gender-based visual differences (like 'female' labels) remain a consistent challenge across all models.
 ## 🖼️ Visualizations  
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/DenseNet121_viz.png?raw=true)  
 
