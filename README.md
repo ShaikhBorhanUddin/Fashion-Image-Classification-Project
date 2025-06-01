@@ -37,6 +37,8 @@ Zalando Project
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/densenet121_performance.png?raw=true)  
 
+The performance metrics of the DenseNet101 model, as visualized across training and fine-tuning phases, show clear improvements during fine-tuning. Initially, training and validation accuracy and precision fluctuate moderately but gradually improve over 40 epochs. After fine-tuning begins, both training and validation accuracy (green and red curves) continue to rise, with the fine-tune validation accuracy reaching above 0.75. Similarly, loss decreases significantly in the fine-tuning phase, indicating better convergence. Precision and recall also improve, with fine-tune validation recall nearing 0.75. The most notable improvement is in the F1 score, which steadily increases during fine-tuning for both training and validation sets, indicating a balanced performance in terms of precision and recall. Overall, fine-tuning significantly enhances model generalization and robustness, as seen in the smoother and better-performing validation metrics.
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/mobilenetv2_performance.png?raw=true)  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/resnet_performance.png?raw=true)  
