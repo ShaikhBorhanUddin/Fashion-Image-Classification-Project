@@ -35,12 +35,21 @@ Zalando Project
 ├── Licence
 └── README.md # Outline and overview of this project
 ```
-## 📦 Dataset Overview  
-[Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
+## 🧾 Dataset Overview
+
+The [Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl) used in this project consists of fashion clothing images scraped from **Zalando.com**, a popular European e-commerce platform that offers a wide range of clothing, shoes, and accessories for men, women, and kids. The original images, available through a Kaggle dataset, had a high resolution of **606 × 875 pixels**, capturing fine-grained apparel details such as texture, fit, and patterns. To make the dataset compatible with pre-trained deep learning models such as **DenseNet121**, **ResNet101V2**, and **MobileNetV2**, all images were resized to **224 × 224 pixels**, which is the standard input size for most ImageNet-based transfer learning architectures. This resizing was done while preserving the aspect ratio and essential visual features to retain classification accuracy. The preprocessed and scaled-down version of the dataset can be accessed via the following [Colab Link](#) (replace with actual link) used in this project.  
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_dataset_sample.png?raw=true)  
+
+The dataset includes various clothing categories such as **shirts, longsleeves, hoodies, sweatshirts**, and their **gender-specific** counterparts (e.g., *hoodies_female*, *sweatshirt_female*). The images are clean, front-facing product photos with minimal background clutter, making them ideal for training robust image classifiers.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/dataset_image_distribution.png?raw=true)
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_dataset_sample.png?raw=true)  
+
+## 📦 Dataset Overview  
+[Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
+
+
 
 ## ⚗️ Experiments
 
