@@ -15,7 +15,12 @@
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/zalando_title.png?raw=true)
 
-This project focuses on classifying Zalando fashion articles using deep learning models trained on the Fashion MNIST dataset. It aims to automate clothing categorization and contribute to intelligent fashion recommendation systems.
+The Zalando Fashion Clothing Classification project aims to automatically classify various types of clothing items using deep learning techniques. This project leverages transfer learning with state-of-the-art convolutional neural network (CNN) architectures—including DenseNet121, MobileNetV2, and ResNet101V2—to accurately identify apparel types such as shirts, hoodies, longsleeves, and sweatshirts, with further distinction based on gender (e.g., hoodies_female, sweatshirt_female).
+
+The goal is to develop a robust multi-class image classification model that can be used in real-world fashion retail and e-commerce scenarios, such as automatic product tagging, visual search systems, and inventory management. The dataset used in this project consists of labeled fashion images sourced from Zalando, cleaned and preprocessed for training, validation, and testing purposes.
+
+Multiple performance metrics such as accuracy, F1-score, precision, recall, loss, confusion matrix, and ROC curves were used to evaluate the models. Additionally, interpretability techniques like Grad-CAM, Grad-CAM++, and Score-CAM were applied to understand model decisions at the visual level. The project is structured to be modular, reproducible, and suitable for integration into larger fashion-tech pipelines.
+
 
 
 ## 📂 Folder Structure  
