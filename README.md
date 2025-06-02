@@ -41,15 +41,9 @@ The [Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl) used i
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_dataset_sample.png?raw=true)  
 
-The dataset includes various clothing categories such as **shirts, longsleeves, hoodies, sweatshirts**, and their **gender-specific** counterparts (e.g., *hoodies_female*, *sweatshirt_female*). The images are clean, front-facing product photos with minimal background clutter, making them ideal for training robust image classifiers.
+The dataset includes various clothing categories such as **shirts, longsleeves, hoodies, sweatshirts**, and their **gender-specific** counterparts (e.g., *hoodies_female*, *sweatshirt_female*). The images are clean, front-facing product photos with minimal background clutter, making them ideal for training robust image classifiers. Image distribution of the dataset is visualized in the following bar chart.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/dataset_image_distribution.png?raw=true)
-
-
-## 📦 Dataset Overview  
-[Dataset](https://www.kaggle.com/datasets/dqmonn/zalando-store-crawl)
-
-
 
 ## ⚗️ Experiments
 
