@@ -107,14 +107,9 @@ In contrast, Grad-CAM++ visualizations offer more localized attention:
 
 Overall, ResNet101V2 with Grad-CAM++ produces tighter, more discriminative heatmaps, effectively localizing clothing details like logos, hoods, and necklines. However, its tendency to misclassify sweatshirt-style tops as hoodies suggests some feature overlap confusion, especially when garments share visual attributes.
 
+## 🛍️ Practical Applications  
 
-
-
-
-
-
-
-## 🛍️ Practical Applications
+The Zalando Fashion Clothing Classification model can be directly applied in real-world fashion and e-commerce systems to improve efficiency and user experience. For example, online retailers like Zalando, ASOS, or Amazon Fashion can use this model to automatically classify and tag clothing items—such as hoodies, long sleeves, sweatshirts, and gender-specific apparel—when sellers upload new product images. This eliminates the need for manual labeling, reduces human error, and ensures consistency across large inventories. It also enhances the accuracy of product filters and search results, helping customers find desired items faster. In recommendation systems, the model can be used to tailor suggestions based on past purchases or browsing behavior by identifying clothing categories in product images. Additionally, fashion visual search engines can utilize this model to allow users to upload a photo and discover similar-looking items instantly. The model also supports mobile apps that manage digital wardrobes or offer virtual styling advice by detecting and categorizing garments in user photos. In backend operations, it can be integrated into analytics tools to monitor inventory by category, gender, or seasonal demand. Overall, this model offers scalable, automated, and intelligent clothing recognition for a wide range of fashion-tech applications.
 
 ## 🧪 How to Run Locally
 
