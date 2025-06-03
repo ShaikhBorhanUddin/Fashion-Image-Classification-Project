@@ -62,12 +62,16 @@ These experiments were designed to assess trade-offs between model complexity, t
 
 ## 📊 Results  
 
+Performance Matrix summary for all tested models are given in the following chart.
+
 | Model         | Accuracy | F1 Score | Loss   | Precision | Recall  |
 |---------------|----------|----------|--------|-----------|---------|
 | DenseNet121   | 0.7250   | 0.6671   | 0.5354 | 0.7406    | 0.7058  |
 | MobileNetV2   | 0.6578   | 0.6535   | 0.8897 | 0.6789    | 0.6463  |
 | ResNet101V2   | 0.6883   | 0.6995   | 0.8445 | 0.6929    | 0.6822  |
 | VGG19         | 0.6230   | 0.6074   | 0.7610 | 0.6725    | 0.5580  |
+
+Detailed analysis of individual models are discussed below.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/densenet121_performance.png?raw=true)  
 
