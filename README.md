@@ -45,7 +45,20 @@ The dataset includes various clothing categories such as **shirts, longsleeves, 
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Fashion-Image-Classification-Project/blob/main/Images/dataset_image_distribution.png?raw=true)
 
-## ⚗️ Experiments
+## ⚗️ Experiments  
+
+This project evaluates the performance of four pre-trained CNN architectures—**DenseNet121**, **MobileNetV2**, **ResNet101V2**, and **VGG19**—for fashion clothing image classification. Each model was fine-tuned (except VGG19) using transfer learning with customized fully connected layers and trained on the scaled-down Zalando dataset.
+
+**DenseNet121** was configured with a dense layer of 512 neurons and ReLU activation, followed by a softmax output layer for multi-class classification. Initially, the base model was frozen and trained with a learning rate of `0.001` using the Adam optimizer. Later, the base model was unfrozen and fine-tuned with a reduced learning rate of `1e-4`. A dropout of `0.5` was applied to reduce overfitting. The model was trained for `40 epochs` with a batch size of `256`, resulting in approximately **7.56 million trainable parameters**.
+
+**MobileNetV2**, a lightweight model, followed the same architecture setup as DenseNet121 but used a larger batch size of `512` and was trained for `30 epochs`. Its compact design resulted in only **2.9 million parameters**, making it suitable for faster inference and deployment in low-resource environments.
+
+**ResNet101V2** also shared the same architecture structure and training methodology as DenseNet121 but was significantly deeper and more complex, with **43.6 million parameters**. It was trained for `40 epochs` with a batch size of `256`, enabling the model to learn high-level features at greater depth.
+
+**VGG19** was used without fine-tuning (i.e., the base model remained frozen). It was trained for `70 epochs` with a batch size of `256`, resulting in **20.2 million parameters**. Unlike the other models, VGG19 was evaluated solely as a feature extractor, and no additional training on its convolutional base was conducted.
+
+These experiments were designed to assess trade-offs between model complexity, training time, and classification performance across a real-world fashion dataset.
+
 
 ## 📊 Results  
 
