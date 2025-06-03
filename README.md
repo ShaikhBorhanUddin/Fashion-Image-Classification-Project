@@ -90,6 +90,9 @@ The performance plots for the ResNet101V2 model reveal notable improvements duri
 The accuracy graph for the VGG19 model before fine-tuning shows gradual improvement over 70 epochs but ultimately yields underwhelming results compared to other models. Training accuracy fluctuates between 60% and 70% after the initial sharp rise, while validation accuracy plateaus early and remains consistently around 62–64%, showing minimal improvement despite the extended training duration. The persistent gap and instability in training accuracy without corresponding gains in validation performance suggest limited generalization and potential overfitting. Due to this lackluster performance, especially in contrast with models like ResNet101V2 or DenseNet101, other performance metrics such as loss, precision, recall, and F1-score are omitted from this section as they are unlikely to provide further meaningful insights without fine-tuning.
 
 ## 📈 ROC Curve Analysis  
+
+This section presents the ROC curves for the tested models (DenseNet121, MobileNetV2, and ResNet101V2) to visually compare their capability to distinguish between classes in a multi-class fashion classification setting.  
+
 ![dashboard](https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification/blob/main/Images/Zalando_ROC.png?raw=true)
 
 The ROC curves for DenseNet121 (left panel) demonstrate strong class separability, particularly for the 'shirt' and 'longsleeve' classes, which nearly hug the top-left corner — indicating excellent true positive rates with low false positives. The 'hoodies_female' and 'sweatshirt_female' classes perform slightly lower but still show decent AUC behavior. The curves suggest that DenseNet121 is a well-calibrated model overall, achieving a good balance between sensitivity and specificity for most classes. The tight grouping near the top indicates robustness in multi-class discrimination.
