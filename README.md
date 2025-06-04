@@ -149,7 +149,14 @@ The Zalando Fashion Clothing Classification model can be directly applied in rea
 
 To run this project locally, first clone the repository using `git clone https://github.com/ShaikhBorhanUddin/Zalando-Fashion-Clothing-Classification.git` and navigate into the project folder. Create a virtual environment using `python -m venv venv` and activate it (`source venv/bin/activate` on Linux/macOS or `venv\Scripts\activate` on Windows). Install all required dependencies with `pip install -r requirements.txt`. Next, download the preprocessed dataset from the linked Colab notebook and place it in the correct directory as referenced in the scripts or notebooks. Launch Jupyter using `jupyter notebook` and open any model-specific notebook (e.g., `DenseNet121_Fashion_Classification.ipynb`) to train or evaluate. Note that `.h5` model weight files larger than 25MB are not stored on GitHub; you’ll need to manually download them from the shared Colab or Google Drive link provided in the notebook comments.
 
-## ⚠️ Limitations
+## ⚠️ Limitations  
+
+The original Zalando dataset was approximately 1.21 GB and contained high-resolution clothing images. To accommodate resource-constrained environments such as Google Colab, a scaled-down version of the dataset (224x224 pixels) was used for training and evaluation. While this made model training feasible, the reduced resolution may have led to a loss of fine-grained features, impacting the models’ ability to distinguish between visually similar categories.
+
+Some overlap was observed between hoodie and sweatshirt samples, which introduced ambiguity into the classification task. This overlap particularly affected visual interpretation tools like Grad-CAM, Grad-CAM++, and Score-CAM, leading to less precise heatmaps and occasional misclassification. Additionally, the dataset was imbalanced, with a higher concentration of shirt and sweatshirt images compared to other categories. This bias may have skewed model predictions and contributed to performance disparities across classes.
+
+Overall, while the models performed reasonably well, these limitations highlight the need for higher-quality labeling, more balanced class distributions, and potentially higher-resolution inputs for further improvement.
+
 
 ## 🧰 Tools and Technology Used  
 
