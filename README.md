@@ -28,7 +28,7 @@ The following project structure is maintained in this repository:
 ```bash
 Zalando Project
 |
-├── Dataset/ # If it is not available in this folder due to file size limitation of Github, please follow the Colab or Kaggle link
+├── Dataset/ # If it is not available in this repository due to file size limitation of Github, please follow the Colab or Kaggle link
 ├── Src/ # Source code for dataset upload, training, evaluation, and visualization for every model used
 ├── Images/ # Output images, graphs, confusion matrix, etc.
 ├── Requirements.txt # Python dependencies
