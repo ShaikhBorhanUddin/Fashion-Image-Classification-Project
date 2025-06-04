@@ -151,7 +151,22 @@ To run this project locally, first clone the repository using `git clone https:/
 
 ## ⚠️ Limitations
 
-## 🧰 Tools and Technology Used
+## 🧰 Tools and Technology Used  
+
+This project leverages a range of tools and technologies to build, train, evaluate, and visualize deep learning models for fashion clothing classification:
+
+- **Python 3.10** – Core programming language used throughout the project.
+- **TensorFlow & Keras** – Used for building and fine-tuning deep learning models such as DenseNet121, MobileNetV2, ResNet101V2, and VGG19.
+- **NumPy & Pandas** – For data manipulation, preprocessing, and analysis.
+- **Matplotlib & Seaborn** – For visualizing performance metrics, confusion matrices, and ROC curves.
+- **OpenCV** – For image processing and resizing.
+- **Grad-CAM, Grad-CAM++, and Score-CAM** – For model interpretability and visual explanations.
+- **Google Colab Pro** – Used for model training with access to powerful GPUs (A100).
+- **Jupyter Notebook** – For modular, interactive experimentation and visualization.
+- **Git & GitHub** – For version control and project collaboration.
+
+These tools together provide a robust pipeline for developing and analyzing deep learning models in a real-world image classification context.
+
 
 ## 📄 License
 
